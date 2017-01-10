@@ -5,13 +5,13 @@
 			<input class="toggle-all" type="checkbox" @click="allDone">
 			<label for="toggle-all">Mark all as complete</label>
 			<ul class="todo-list">
-        <li v-for="todo in todos" :class="{'completed': todo.completed, 'editing': editedTodo === todo}">
+        <li v-for="todo in todos" :class="{'completed': todo.completed, 'editing': todo === editedTodo}">
           <div class="view">
             <input class="toggle" type="checkbox" v-model="todo.completed">
-            <label @dblclick="editedTodo = todo">{{ todo.title }}</label>
+            <label @dblclick="editTodo(todo)">{{ todo.title }}</label>
             <button class="destroy" @click="removeTodo(todo)"></button>
           </div>
-          <input class="edit" type="text" v-if="editedTodo === todo" v-model="editedTodo.title" @blur="editTodo(todo)" @keyup.enter="editTodo(todo)" @keyup.esc="editedTodo = null">
+          <input class="edit" type="text" v-model="todo.title" v-todo-focus="todo == editedTodo" @blur="doneEdit(todo)" @keyup.enter="doneEdit(todo)" @keyup.esc="cancelEdit(todo)">
         </li>
 			</ul>
 		</section>
@@ -63,10 +63,19 @@ export default {
       this.$store.commit('allDone')
     },
     editTodo (todo) {
-      if (!this.editedTodo.title) {
-        this.$store.commit('remove', todo)
-      }
+      this.beforeEditCache = todo.title
+      this.editedTodo = todo
+    },
+    doneEdit (todo) {
       this.editedTodo = null
+      todo.title = todo.title.trim()
+      if (!todo.title) {
+				this.removeTodo(todo);
+			}
+    },
+    cancelEdit (todo) {
+      this.editedTodo = null
+			todo.title = this.beforeEditCache
     },
     removeTodo (todo) {
       this.$store.commit('remove', todo)
@@ -75,6 +84,13 @@ export default {
       localStorage.setItem('nuxt-todos', JSON.stringify(this.todos))
     }
   },
+  directives: {
+		'todo-focus' (el, binding) {
+			if (binding.value) {
+				el.focus()
+			}
+		}
+	},
   components: {
     TodoHeader,
     TodoFooter
