@@ -70,27 +70,28 @@ export default {
       this.editedTodo = null
       todo.title = todo.title.trim()
       if (!todo.title) {
-				this.removeTodo(todo);
-			}
+        this.removeTodo(todo)
+      }
     },
     cancelEdit (todo) {
       this.editedTodo = null
-			todo.title = this.beforeEditCache
+      todo.title = this.beforeEditCache
     },
     removeTodo (todo) {
       this.$store.commit('remove', todo)
     },
     save () {
+      // this.$store.dispatch('saveTodos', this.todos)
       localStorage.setItem('nuxt-todos', JSON.stringify(this.todos))
     }
   },
   directives: {
-		'todo-focus' (el, binding) {
-			if (binding.value) {
-				el.focus()
-			}
-		}
-	},
+    'todo-focus' (el, binding) {
+      if (binding.value) {
+        el.focus()
+      }
+    }
+  },
   components: {
     TodoHeader,
     TodoFooter

@@ -35,8 +35,8 @@ const store = new Vuex.Store({
     allDone (state) {
       var value = state.todos.filter(todo => todo.completed).length === state.todos.length
       state.todos.forEach((todo) => {
-				todo.completed = !value
-			})
+        todo.completed = !value
+      })
     }
   }
 })
