@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     removeCompleted () {
-      this.$store.commit('removeCompleted', this.actives)
+      this.$store.dispatch('setTodos', this.actives)
     }
   }
 }

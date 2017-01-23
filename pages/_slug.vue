@@ -33,9 +33,6 @@ export default {
       titleTemplate: 'Nuxt TodoMVC : %s todos'
     }
   },
-  mounted () {
-    this.$store.commit('fetch', JSON.parse(localStorage.getItem('nuxt-todos') || '[]'))
-  },
   data () {
     return {
       editedTodo: null
@@ -60,7 +57,7 @@ export default {
   },
   methods: {
     allDone () {
-      this.$store.commit('allDone')
+      this.$store.dispatch('allDone')
     },
     editTodo (todo) {
       this.beforeEditCache = todo.title
@@ -70,7 +67,7 @@ export default {
       this.editedTodo = null
       todo.title = todo.title.trim()
       if (!todo.title) {
-        this.removeTodo(todo)
+        this.$store.dispatch('removeTodo', todo)
       }
     },
     cancelEdit (todo) {
@@ -78,11 +75,10 @@ export default {
       todo.title = this.beforeEditCache
     },
     removeTodo (todo) {
-      this.$store.commit('remove', todo)
+      this.$store.dispatch('removeTodo', todo)
     },
     save () {
-      // this.$store.dispatch('saveTodos', this.todos)
-      localStorage.setItem('nuxt-todos', JSON.stringify(this.todos))
+      this.$store.dispatch('saveTodos')
     }
   },
   directives: {

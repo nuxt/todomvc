@@ -14,7 +14,7 @@ export default {
     addTodo () {
       var value = this.todo && this.todo.trim()
       if (value) {
-        this.$store.commit('add', { title: value, completed: this.$route.params.slug === 'completed' })
+        this.$store.dispatch('addTodo', { title: value, completed: this.$route.params.slug === 'completed' })
         this.todo = ''
       }
     }
