@@ -15,12 +15,5 @@ module.exports = {
   ],
   router: {
     linkActiveClass: 'selected'
-  },
-  // nuxt et nuxt start
-  server: {
-    extend: function (app) {
-      // app is an express application
-      app.use('express-session')
-    }
   }
 }
