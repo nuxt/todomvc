@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import TodoHeader from '~components/header'
-import TodoFooter from '~components/footer'
+import TodoHeader from '~/components/header'
+import TodoFooter from '~/components/footer'
 
 export default {
   validate ({ params }) {
