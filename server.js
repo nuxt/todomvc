@@ -1,4 +1,4 @@
-const Nuxt = require('nuxt')
+const {Nuxt, Builder} = require('nuxt')
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const app = require('express')()
@@ -25,7 +25,7 @@ let config = require('./nuxt.config.js')
 config.dev = !isProd
 const nuxt = new Nuxt(config)
 // No build in production
-const promise = (isProd ? Promise.resolve() : nuxt.build())
+const promise = (isProd ? Promise.resolve() : new Builder(nuxt).build())
 promise.then(() => {
   app.use(nuxt.render)
   app.listen(3000)
