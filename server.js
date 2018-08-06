@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const app = require('express')()
-const {Nuxt, Builder} = require('nuxt')
+const { Nuxt, Builder } = require('nuxt')
 
 // Body parser, to access req.body
 app.use(bodyParser.json())
