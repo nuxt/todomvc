@@ -2,7 +2,7 @@
   <section class="todoapp">
     <todo-header/>
 		<section class="main" v-if="todos.length">
-			<input class="toggle-all" type="checkbox" @click="allDone">
+			<input id="toggle-all" class='toggle-all' type="checkbox" @click="allDone">
 			<label for="toggle-all">Mark all as complete</label>
 			<ul class="todo-list">
         <li v-for="todo in todos" :class="{'completed': todo.completed, 'editing': todo === editedTodo}">
