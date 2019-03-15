@@ -13,6 +13,7 @@
     "todomvc-app-css": "^2.0.6"
   },
   "scripts": {
+    "arkit": "arkit -o arkit.svg",
     "dev": "node server.js",
     "build": "nuxt build",
     "start": "node server.js",
@@ -21,6 +22,7 @@
     "precommit": "npm run lint"
   },
   "devDependencies": {
+    "arkit": "dyatko/arkit#master",
     "babel-eslint": "^7.1.1",
     "eslint": "^3.13.1",
     "eslint-config-standard": "^6.2.1",
