@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="203px" preserveAspectRatio="none" style="width:815px;height:203px;" version="1.1" viewBox="0 0 815 203" width="815px" zoomAndPan="magnify"><defs/><g><!--cluster Dependencies--><path d="M24,108 L120,108 A3,3 0 0 1 122,110 L129,128.4844 L601,128.4844 A2,2 0 0 1 603,130.4844 L603,189 A2,2 0 0 1 601,191 L24,191 A2,2 0 0 1 22,189 L22,110 A2,2 0 0 1 24,108 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="129" y1="128.4844" y2="128.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="26" y="122.0059">Dependencies</text><!--entity axios--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="51" x="417.5" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="412.5" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="412.5" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="427.5" y="163.0059">axios</text><!--entity body-parser--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="89" x="251.5" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="246.5" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="246.5" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="69" x="261.5" y="163.0059">body-parser</text><!--entity express--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="65" x="170.5" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="165.5" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="165.5" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="180.5" y="163.0059">express</text><!--entity express-session--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="116" x="38" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="33" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="33" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="48" y="163.0059">express-session</text><!--entity nuxt--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="44" x="357" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="352" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="352" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="367" y="163.0059">nuxt</text><!--entity vue--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="40" x="485" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="480" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="480" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="20" x="495" y="163.0059">vue</text><!--entity vuex--><rect fill="#F8F8F8" height="34.4844" rx="2" ry="2" style="stroke: #383838; stroke-width: 1.0;" width="46" x="541" y="141"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="536" y="146"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="536" y="165.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="551" y="163.0059">vuex</text><ellipse cx="632.0477" cy="21.742" fill="#F8F8F8" rx="47.5477" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="600.5477" y="25.4842">_slug.vue</text><ellipse cx="749.9148" cy="21.283" fill="#F8F8F8" rx="54.4148" ry="13.283" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="713.4148" y="25.0251">default.vue</text><ellipse cx="624.0122" cy="79.242" fill="#F8F8F8" rx="44.0122" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="595.0122" y="82.9842">footer.vue</text><ellipse cx="730.8406" cy="79.242" fill="#F8F8F8" rx="46.8406" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="699.8406" y="82.9842">header.vue</text><ellipse cx="341.0477" cy="79.242" fill="#F8F8F8" rx="47.5477" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="309.5477" y="82.9842">nuxt.config</text><ellipse cx="244.9914" cy="79.242" fill="#F8F8F8" rx="31.9914" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="224.4914" y="82.9842">server</text><ellipse cx="504.9903" cy="21.4981" fill="#F8F8F8" rx="55.4903" ry="13.4981" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="466.9903" y="25.2402">store/index</text><!--link <b>_slug.vue</b> to footer.vue--><path d="M630.264,34.543 C629.153,42.252 627.694,52.373 626.464,60.907 " fill="none" id="&lt;b&gt;_slug.vue&lt;/b&gt;-footer.vue" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="625.732,65.981,630.9767,57.6448,626.4463,61.0323,623.0588,56.5019,625.732,65.981" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>_slug.vue</b> to header.vue--><path d="M651.559,33.465 C667.424,42.359 689.861,54.937 706.845,64.459 " fill="none" id="&lt;b&gt;_slug.vue&lt;/b&gt;-header.vue" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="711.481,67.058,705.5874,59.1671,707.1199,64.6125,701.6746,66.1449,711.481,67.058" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>server</b> to body-parser--><path d="M252.746,91.695 C260.625,103.59 272.993,122.2639 282.489,136.6013 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-body-parser" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="285.336,140.8993,283.7011,131.1871,282.575,136.7307,277.0314,135.6047,285.336,140.8993" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>server</b> to express--><path d="M238.438,92.031 C232.012,103.812 222.091,122.0005 214.378,136.1397 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-express" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="211.856,140.7644,219.6778,134.7795,214.2507,136.3751,212.655,130.948,211.856,140.7644" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>server</b> to express-session--><path d="M214.989,83.703 C198.657,86.57 178.482,91.536 162,100 C143.814,109.3389 126.45,124.6845 114.101,137.1018 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-express-session" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="110.435,140.8516,119.5869,137.2125,113.9304,137.2764,113.8665,131.6199,110.435,140.8516" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>server</b> to nuxt--><path d="M268.947,87.885 C274.195,89.415 279.751,90.887 285,92 C298.806,94.926 336.348,92.037 348,100 C360.398,108.4726 368.29,123.5771 373.007,136.1093 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-nuxt" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="374.72,140.9426,375.4824,131.1233,373.0491,136.2301,367.9424,133.7967,374.72,140.9426" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>server</b> to nuxt.config--><path d="M277.25,79 C280.736,79 284.223,79 287.709,79 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-nuxt.config" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="293.188,79,284.188,75,288.188,79,284.188,83,293.188,79" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>store/index</b> to axios--><path d="M499.055,35.396 C488.34,58.642 465.694,107.7676 452.704,135.9477 " fill="none" id="&lt;b&gt;store/index&lt;/b&gt;-axios" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="450.551,140.619,457.9511,134.1199,452.644,136.0782,450.6858,130.7711,450.551,140.619" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>store/index</b> to vue--><path d="M505,35.396 C505,58.546 505,107.3621 505,135.5972 " fill="none" id="&lt;b&gt;store/index&lt;/b&gt;-vue" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="505,140.619,509,131.619,505,135.619,501,131.619,505,140.619" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>store/index</b> to vuex--><path d="M510.657,35.396 C520.854,58.642 542.404,107.7676 554.765,135.9477 " fill="none" id="&lt;b&gt;store/index&lt;/b&gt;-vuex" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="556.814,140.619,556.8614,130.7703,554.8053,136.0402,549.5354,133.9841,556.814,140.619" style="stroke: #000000; stroke-width: 1.0;"/><script type="text/plantuml"><![CDATA[
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam nodesep 16
+skinparam ranksep 31
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 4
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.55
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+(<b>_slug.vue</b>)
+(<b>default.vue</b>)
+(footer.vue)
+(header.vue)
+(nuxt.config)
+(<b>server</b>)
+(<b>store/index</b>)
+
+package "Dependencies" {
+  [axios]
+  [body-parser]
+  [express]
+  [express-session]
+  [nuxt]
+  [vue]
+  [vuex]
+}
+
+(<b>_slug.vue</b>) --[thickness=1]> (footer.vue)
+(<b>_slug.vue</b>) --[thickness=1]> (header.vue)
+(<b>server</b>) --[thickness=1]> [body-parser]
+(<b>server</b>) --[thickness=1]> [express]
+(<b>server</b>) --[thickness=1]> [express-session]
+(<b>server</b>) --[thickness=1]> [nuxt]
+(<b>server</b>) -[thickness=1]> (nuxt.config)
+(<b>store/index</b>) ---[thickness=1]> [axios]
+(<b>store/index</b>) ---[thickness=1]> [vue]
+(<b>store/index</b>) ---[thickness=1]> [vuex]
+
+@enduml
+
+
+' View and edit on https://arkit.herokuapp.com
+]]></script></g></svg>

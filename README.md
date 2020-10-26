@@ -4,6 +4,8 @@
 
 > _[Nuxt.js - nuxtjs.org](https://nuxtjs.org)_
 
+![arkit](./arkit.svg?sanitize=true)
+
 ## Setup
 
 ```bash
