@@ -5,7 +5,7 @@
   "author": "Alexandre Chopin <wikeo65@gmail.com>",
   "private": true,
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.18.0",
     "body-parser": "^1.16.0",
     "express": "^4.14.0",
     "express-session": "^1.15.0",
