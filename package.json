@@ -5,12 +5,12 @@
   "author": "Alexandre Chopin <wikeo65@gmail.com>",
   "private": true,
   "dependencies": {
-    "axios": "^0.15.3",
-    "body-parser": "^1.16.0",
-    "express": "^4.14.0",
-    "express-session": "^1.15.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "nuxt": "latest",
-    "todomvc-app-css": "^2.0.6"
+    "todomvc-app-css": "^2.3.0"
   },
   "scripts": {
     "arkit": "arkit -o arkit.svg",
@@ -23,11 +23,11 @@
   },
   "devDependencies": {
     "arkit": "dyatko/arkit#master",
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.13.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-html": "^1.7.0",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^2.3.1"
   }
 }
